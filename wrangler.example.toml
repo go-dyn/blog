@@ -1,0 +1,11 @@
+name = "database_name"
+main = "./build/worker.mjs"
+compatibility_date = "2023-01-09"
+
+[build]
+command = "make build"
+
+[[ d1_databases ]]
+binding = "database"
+database_name = "database_name"
+database_id = "database_id"
